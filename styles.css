@@ -1,0 +1,98 @@
+body {
+  background-color: #9c070c; !important
+}
+
+.container {
+  background-color: #fee8b0;
+  margin: 100px auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 70%;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Luckiest Guy", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3.5rem;
+  color: #9ca777;
+}
+
+p {
+  font-size: 2rem;
+  color: #7c9070;
+  font-family: "Bitter", serif;
+}
+
+.dice {
+  display: inline-block;
+  text-align: center;
+}
+
+img {
+  width: 80%;
+}
+
+/* button */
+.bttn {
+  margin: auto;
+  width: 15%;
+}
+
+.myButton {
+  background-color: #fee8b0;
+  border: 1px solid #9ca777;
+  display: inline-block;
+  cursor: pointer;
+  color: #9ca777;
+  font-family: Verdana;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 12px 25px;
+  text-decoration: none;
+}
+
+.myButton:hover {
+  background-color: #f2c146;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+/* footer */
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+
+/* Shake effect */
+.shake {
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
